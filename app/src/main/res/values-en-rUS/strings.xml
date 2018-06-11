@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StringResource0405</string>
+    <string name="tieude">Loggin Information</string>
+    <string name="taikhoan">Username</string>
+    <string name="matkhau">Password</string>
+    <string name="btndangnhap">Login</string>
+    <string name="outputtaikhoan">"User : "</string>
+    <string name="outputmatkhau">Pass word :</string>
+</resources>

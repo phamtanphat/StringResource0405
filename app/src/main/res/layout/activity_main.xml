@@ -11,27 +11,29 @@
        android:layout_centerHorizontal="true"
        android:textColor="#f20"
        android:textSize="40sp"
-       android:text="Dang nhap he thong"
+       android:text="@string/tieude"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content" />
     <EditText
+        android:inputType="text"
         android:layout_below="@id/textviewTitle"
         android:layout_marginTop="30dp"
-        android:hint="Tai khoan"
+        android:hint="@string/taikhoan"
         android:id="@+id/edittexttaikhoan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <EditText
+        android:inputType="textPassword"
         android:layout_below="@id/edittexttaikhoan"
         android:layout_marginTop="30dp"
-        android:hint="Mat khau"
+        android:hint="@string/matkhau"
         android:id="@+id/edittextmatkhau"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <Button
         android:layout_marginTop="50dp"
         android:layout_centerHorizontal="true"
-        android:text="Dang nhap"
+        android:text="@string/btndangnhap"
         android:layout_below="@id/edittextmatkhau"
         android:id="@+id/buttonDangnhap"
         android:layout_width="wrap_content"
